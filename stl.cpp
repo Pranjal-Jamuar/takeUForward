@@ -43,6 +43,18 @@ void explainVector()
   vector<int> s(5); //  creates a container of size each element being some garbage value or "0"
 
   vector s1(s); //  creates a copy of container "s" in "s1"
+
+  cout << v[0] /* used to call an element from the vector container */ << " " << v.at(0) /* not used much */;
+
+  //  Iterators - points to the memory address of the element
+  vector<int>::iterator it = v.begin(); // v.begin() points to the memory address of the first element in the container.
+  it++;                                 // moves one place ahead in the contiguous memory location
+  cout << *(it) << " ";                 // prints 2
+
+  vector<int>::iterator it = v.end(); //  the memory location right after the last element
+  // vector<int>::iterator it = v.rbegin();
+  // vector<int>::iterator it = v.rend();
+  // never used, just know the syntax and explain if asked in the interview.
 }
 
 int main()
