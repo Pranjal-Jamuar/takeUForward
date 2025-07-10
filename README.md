@@ -46,6 +46,24 @@ echo 'export CPLUS_INCLUDE_PATH=/opt/homebrew/include' >> ~/.zshrc
 
 ## ▶️ How to Use
 
+### ⚒️ `.vscode/tasks.json`
+
+This file defines a **custom build task** using `g++-15` for compiling C++ files with C++17 support.
+
+✅ Works seamlessly on **macOS with Homebrew-installed GCC**  
+✅ Automatically picks the current file and builds it to an executable with the same name  
+✅ No need to type commands in terminal — just press `Cmd + Shift + B` to compile!
+
+You can find the complete file in the repo at:
+
+```txt
+.vscode/tasks.json
+```
+
+
+> 📌 **Note:** Ensure you have `g++-15` installed via Homebrew (`brew install gcc`) for it to work correctly.
+
+
 ### 🧱 Build & Run
 
 Open `patterns.cpp` or `stl.cpp` and press:
