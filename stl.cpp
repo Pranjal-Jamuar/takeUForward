@@ -55,6 +55,16 @@ void explainVector()
   // vector<int>::iterator it = v.rbegin();
   // vector<int>::iterator it = v.rend();
   // never used, just know the syntax and explain if asked in the interview.
+
+  //  printing vector container elements using iterator
+  for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
+    cout << *(it) << " ";
+
+  for (auto it = v.begin(); it != v.end(); it++) //  auto automatically assigns the data-type to the container according to the element; useful if we don't know the data-type of any element
+    cout << *(it) << " ";
+
+  for (auto it : v)
+    cout << it << " ";
 }
 
 int main()
