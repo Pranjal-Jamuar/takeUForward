@@ -79,6 +79,20 @@ void explainVector()
   //  Copy a vector
   vector<int> copy(2, 50);                       //  {50, 50}
   v.insert(v.begin(), copy.begin(), copy.end()); //  {50, 50, 300, 10, 10, 100, 100}
+
+  cout << v.size(); //  outputs the size of the vector
+
+  v.pop_back(); //  removes elements from the last
+
+  //  v1 -> {10, 20}
+  vector<int> v1(10, 20);
+  //  v2 -> {30, 40}
+  vector<int> v2(30, 40);
+  v1.swap(v2); //  v1 -> {30, 40}, v2 -> {10, 20}
+
+  v.clear(); //  erases the whole vector, doesn't matter what size it is
+
+  cout << v.empty(); // outputs "true" if the vector is empty and "false" if it's not empty
 }
 
 int main()
