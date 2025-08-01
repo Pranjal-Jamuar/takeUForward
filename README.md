@@ -103,7 +103,7 @@ C++ STL fundamentals with:
 ## 👨‍💻 Author
 
 Made with ❤️ by [Pranjal Jamuar](https://github.com/Pranjal-Jamuar)  
-This repo is part of my **75-day DSA + Frontend prep journey**
+<!-- This repo is part of my **75-day DSA + Frontend prep journey** -->
 
 
 Using the StriversA2ZSheet - https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
