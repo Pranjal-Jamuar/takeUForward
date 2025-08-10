@@ -7,7 +7,7 @@
       "command": "g++",
       "args": [
         "-std=c++17",
-        "-I/opt/homebrew/include", // ✅ Added include path
+        "-I/opt/homebrew/include",
         "-o",
         "${fileBasenameNoExtension}",
         "${file}"
