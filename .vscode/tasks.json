@@ -20,7 +20,7 @@
     {
       "label": "compile and run",
       "type": "shell",
-      "command": "g++ -std=c++17 -I/opt/homebrew/include -o ${fileBasenameNoExtension} ${file} && ./${fileBasenameNoExtension} < input.txt > output.txt",
+      "command": "/opt/homebrew/bin/g++-15 -std=c++17 -I/opt/homebrew/include -o ${fileBasenameNoExtension} ${file} && ./${fileBasenameNoExtension} < input.txt > output.txt",
       "group": {
         "kind": "build",
         "isDefault": true
